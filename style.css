@@ -1,0 +1,63 @@
+body {
+    background: #ccc;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+section {
+    background-color: rgba(32, 32, 32, 0.377);
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #000;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.display {
+    width: 40vw;
+    background: #000;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.cont {
+    width: 30vw;
+}
+
+h2 {
+    text-align: center;
+}
+
+.lista {
+    list-style: none;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    border: 0;
+    background: cornflowerblue;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: crimson;
+}
+
+
+
+
