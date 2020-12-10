@@ -1,0 +1,12 @@
+body {
+    
+    text-align: center; /* Alinha texto  */
+    display: flex;  /* Flexibilizando o layout  */
+    flex-direction: column; /* Alinhado o layou em coluna */
+}
+
+table, th, td {
+    border: 1px solid #000; /* Adicionando bordar nos elementos da tabela */
+    width: 20px; /* Configurando a largura dos elementos da tabela */
+    align-self: center; /* Alinhando elemento ao centro do layout */
+}
