@@ -3,33 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cadastro.css">
   <title>Cadastro</title>
 </head>
 <body>
 
-  <h1>Cadastro</h1>
+  <form action="confirm.html" method="get">
+    <h1>Cadastro</h1>
 
-  <form action="teste.html" method="get">
-    <div>
+    <div id="one">
       <label for="nome">Nome: </label>
-      <input type="text" name="nome" placeholder="Nome" required> <small>>> input type text</small>
+      <input type="text" name="nome" id="nome" placeholder="Nome" required> <!--<small>>> input type text</small> -->
     </div>
   
     
 
     <div>
       <label for="sobrenome"> Email: </label>
-      <input type="email" name="email" placeholder="Email" required> <small>>> input type email</small>
+      <input type="email" name="email" id="email" placeholder="Email" required> <!--<small>>> input type email</small>-->
     </div>
     
     <div>
       <label for="senha">Senha:</label>
-      <input type="password" id="senha" name="senha" required minlength="8" placeholder="Senha"/> <small>>> input type password</small>
+      <input type="password" id="senha" name="senha" id="senha" required minlength="8" placeholder="Senha"/>
+      <!--<small>>> input type password</small>-->
     </div>
     
     <div>
       <label for="foto">Escolha uma foto:</label>
-      <input type="file" id="foto" name="foto" /> <small>>> input type file</small>
+      <input type="file" id="foto" name="foto" /> <!--<small>>> input type file</small> -->
     </div>
     
     <div>
@@ -44,7 +46,7 @@
       <label for="negro">Negro</label>
       <input type="radio" name="cor" id="sem-resposta" />
       <label for="sem-resposta">Não quero responder</label>
-    </div> <small>>> input type radio</small>
+    </div> <!-- <small>>> input type radio</small> -->
 
     <div>
       <label for="estado">Selecione um Estado:</label>
@@ -56,26 +58,26 @@
         <option value="pe">Pernambuco</option>
         <option value="ba">Bahia</option>
       </select>
-    </div> <small>>> Elementos Select e Option</small>
+    </div> <!-- <small>>> Elementos Select e Option</small> -->
     
     <div>
       Escolha um ou mais meios de comunicação: 
-      <input type="checkbox" name="comunicacao[]" id="comunicacao-musica" />
+      <input type="checkbox" name="comunicacao" id="comunicacao-musica" />
       <label for="comunicacao-musica">Música</label>
-      <input type="checkbox" name="comunicacao[]" id="comunicacao-televisao" />
+      <input type="checkbox" name="comunicacao" id="comunicacao-televisao" />
       <label for="comunicacao-televisao">Televisão</label>
-      <input type="checkbox" name="comunicacao[]" id="comunicacao-radio" />
+      <input type="checkbox" name="comunicacao" id="comunicacao-radio" />
       <label for="comunicacao-radio">Rádio</label>
-    </div> <small>>> input type checkbox</small>
+    </div> <!-- <small>>> input type checkbox</small> -->
     
     <div>
       <label for="obs">Observações:</label>
       <textarea id="obs" name="observacoes"></textarea>
-    </div>	<small>>> Elementos TextArea</small>
+    </div>	<!-- <small>>> Elementos TextArea</small> -->
 
     <div>
-      <input type="submit" value="Enviar" />
-      <input type="reset" value="Desfazer alterações" />
+      <input class="button" type="submit" value="Enviar" />
+      <input class="button" type="reset" value="Desfazer alterações" />
     </div>
   </form>
   

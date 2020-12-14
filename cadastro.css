@@ -1,0 +1,39 @@
+form {
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    background: rgba(65, 105, 225, 0.767);
+    color: #333;
+    border-radius: 10px;
+}
+
+input, select, textarea, label {
+    text-align: justify;
+    margin-top: 3vh;
+    border: 0;
+}
+
+textarea {
+    height: 20vh;
+    width: 30vw;
+    border: 0;
+}
+
+#nome, #email, #senha {
+    width: 35vw;
+    height: 5vh;
+    border: 0;
+}
+
+.button {
+    background: royalblue;
+    border: 0;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.7;
+    color: #fff;
+}
