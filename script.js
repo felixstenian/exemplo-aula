@@ -148,7 +148,8 @@
  * 
  */
 
-console.log("inicio do script")
+/**
+ * console.log("inicio do script")
 
 var cor = "preto";
 
@@ -162,3 +163,49 @@ var cor = "preto";
 createPhrases()
 
 console.log("Fim do script")
+ */
+
+
+ // Argumentos e parâmetros
+
+ /**
+  * const sum = function(num1, num2) {
+    total = num1 + num2;
+    return total;
+ }
+console.log(sum(2,3));
+  */
+ 
+
+ // retornando valores dentro 
+ //da função
+
+// Manipulando o HTML com JavaScript
+
+//alert("Olá Mundo!")
+
+// DOM
+/**
+ * var titulo = document.querySelector("h1");
+console.log(titulo.textContent);
+
+titulo.textContent = "Olá Mundo!"
+ */
+
+ var buttonAlert = document.getElementById("alert");
+ buttonAlert.addEventListener("click", mostrarAlerta)
+
+ function mostrarAlerta() {
+    alert("Botão Clicado!")
+ }
+
+ var linkAlert = document.getElementById("link");
+ linkAlert.addEventListener("click", function() {
+     alert("Link Clicado!")
+ })
+
+ var button = document.querySelector("#add");
+ button.addEventListener("click", function(event) {
+     event.preventDefault();
+ })
+
