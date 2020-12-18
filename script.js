@@ -89,23 +89,28 @@
 
 
 // Declarando e atribuindo valores
-    var cor; // Declarando
+ /**
+  *    var cor; // Declarando
     cor = "amarelo"; // Atribuindo
     console.log(cor);
+  */
 
 
 // Agrupando declarações
-    var cor1 = "verde";
+    /**
+     * var cor1 = "verde";
     var valor = 1;
     console.log(cor, cor1, valor);
+     */
 
 // Concatenando valores
-    console.log("A cor é" + cor + "de valor" + valor);
+    //console.log("A cor é" + cor + "de valor" + valor);
 // Interpolação
-    console.log(`A cor é ${cor1} de valor ${valor} `);
+   // console.log(`A cor é ${cor1} de valor ${valor} `);
 
 // Objetos (Objects)
-    const person = {
+    /**
+     * const person = {
         name: 'Maria',
         age: 20,
         email: 'maria@gmail.com',
@@ -114,8 +119,10 @@
 
     console.log(`${person.name} tem ${person.age} seu e-mail é ${person.email} é administrador do sistema ${person.isAdmin}`);
 
+     */
 // Arrays
-    const animals = [
+    /**
+     * const animals = [
         'Dog',
         'Lion',
         'Cat'
@@ -133,3 +140,25 @@
     ]
 
     console.log(`Animal: ${animals_new[2].name} idade: ${animals_new[2].age}`);
+     */
+
+
+/**
+ * FUNÇÕES
+ * 
+ */
+
+console.log("inicio do script")
+
+var cor = "preto";
+
+ function createPhrases() {
+    console.log("Frase1")
+    console.log("Frase2")
+    console.log("Frase3")
+    console.log(cor);
+ }
+ 
+createPhrases()
+
+console.log("Fim do script")

@@ -1,12 +1,25 @@
-body {
-    
-    text-align: center; /* Alinha texto  */
-    display: flex;  /* Flexibilizando o layout  */
-    flex-direction: column; /* Alinhado o layou em coluna */
+h1 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+section {
+    display: flex; /* Flexibilizando o bloco section */
+}
+
+div {
+    text-align: center; /* Centralizando texto */
+    display: flex; /* Flexibilizando os blocos de */
+    flex-direction: column;
+    width: 50vw;
 }
 
 table, th, td {
     border: 1px solid #000; /* Adicionando bordar nos elementos da tabela */
-    width: 20px; /* Configurando a largura dos elementos da tabela */
     align-self: center; /* Alinhando elemento ao centro do layout */
 }
+
+table {
+    width: 40vw;
+}
+
