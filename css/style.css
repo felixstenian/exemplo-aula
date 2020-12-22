@@ -1,63 +1,144 @@
 body {
-    background: #ccc;
-    text-align: center;
-    color: #3a3a3a;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    --color1: #846aee;
+    --color2: #5c3bdf;
 }
-
-section {
-    background-color: rgba(32, 32, 32, 0.377);
-    padding: 10px;
-
+/* Estilização do Header - Section 1 */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilização da imagem */
+.avatar {
+    width: 14vw;
+    border-radius: 100px;
+}
+/* Estilização do titulo H1 */
+.title {
+    font-size: 2.2rem;
+    margin: 5px 0;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+/* Estilização do sub-titulo H2 */
+.subtitle {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 0;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+/* Estilização do contato ul - li */
+.contato {
+    padding: 0;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+.contato li {
+    margin: 0 10px;
+    display: inline-block;
+}
+.contato i {
+    color: var(--color1);
+    font-size: 1.6rem;
+}
+.contato i:hover {
+    color: var(--color2);
+}
+#down {
+    color: var(--color1);
+    font-size: 1.4rem;
+}
+#down:hover {
+    color: var(--color2);
+}
+/* Estilização section Sobre */
+#sobre {
+    height: 50vh;
     display: flex;
     align-items: center;
-
-    border: 1px solid #000;
+    border-top: 1px solid var(--color1);
 }
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
+#sobre p {
+    width: 70vw;
+    margin-left: 50px;
     font-size: 1.2rem;
 }
-
-.display {
-    width: 40vw;
-    background: #000;
+#about-me {
+    display: flex;
+    flex-direction: column;
+}
+#about-me h1 {
+    margin-left: 5vw;
+}
+#lista {
+    width: 20vw;
+    font-size: 1.2rem;
     text-align: center;
 }
-
-a {
-    text-decoration: none;
-    
-}
-
-.cont {
-    width: 30vw;
-}
-
-h2 {
-    text-align: center;
-}
-
-.lista {
+#lista li {
+    font-weight: 700;
+    padding: 20px 0;
     list-style: none;
+    cursor: default;
+}
+#lista li:hover {
+    background-color: var(--color2);
+    border-radius: 20px;
+}
+
+/* Estilização section Atividades */
+#atividades {
+    height: 50vh;
     text-align: center;
+    border-top: 1px solid var(--color1);
+}
+#atividades li {
+    list-style: none;
+    padding: 5px;
+}
+#atividades a {
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 1.2rem;
+}
+#atividades a:hover {
+    color: var(--color2);
+    text-decoration: underline;
 }
 
-section {
-    padding: 20px;
+/* Estilização footer */
+footer {
+    background-color: #232323;
+    color: #fff;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -8px;
+}
+footer a {
+    color: var(--color1);
 }
 
-button {
-    border: 0;
-    background: cornflowerblue;
-    padding: 10px;
-    cursor: pointer;
+/* Animação */
+@keyframes slidein {
+    from {
+        margin-top: 50vh;
+        width: 100vw;
+    }
+    to {
+        margin-left: 0;
+    }
 }
 
-button:hover {
-    background: crimson;
+#btn {
+    position: fixed;
+    right: 1vw;
+    top: 1vw;
 }
-
-
-
-

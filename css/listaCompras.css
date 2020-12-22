@@ -4,7 +4,7 @@ body {
 }
 
 .content {
-    width: 70vw;
+    width: 60vw;
     margin: 0 auto;
 }
 
@@ -18,8 +18,6 @@ table {
 #valor, #soma {
     color: crimson;
 }
-
-
 
 #add {
     margin-top: 10px;
@@ -35,10 +33,6 @@ table {
 input {
     height: 3vh;
     margin: 3px;
-    border: 0;
-}
-
-input:active {
     border: 0;
 }
 

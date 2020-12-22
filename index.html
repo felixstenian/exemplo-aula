@@ -3,49 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     
     <title>Felix S.</title>
 </head>
 <body>
-    <h1>Felix Stenian</h1>
-    <h2>felixstenian@gmail.com</h2>
-    
-    <hr>
+    <header>
+        <img
+        class="avatar"
+        src="https://avatars0.githubusercontent.com/u/35822492?s=460&u=6cf83638c9ec91e8721e3cbd72265bb5cc236849&v=4"
+        alt="Felix">
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eaque soluta unde architecto nostrum voluptas ducimus explicabo molestiae magni sequi, saepe sed, necessitatibus, autem asperiores aliquam ad quas recusandae fuga?</p>
+        <h1 class="title">Felix Stenian</h1>
 
-    <ul class="lista">
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
-        <li>Item</li>
-    </ul>
+        <h2 class="subtitle">Web Developer</h2>
 
-    <hr>
+        <ul class="contato">
+            <li>
+                <a href="http://github.com/felixstenian" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://linkedin.com/felixstenian" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:felixstenian@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
 
-    <h1>Contato</h1>
+        <a href="#sobre" id="down">
+            <i class="fa fa-chevron-down"></i>
+        </a>
+    </header>
 
-    
-    <div>
-        
-    </div>
-
-    <section>
-        <div class="cont">
-            <a href="https://github.com">git</a>
+    <section id="sobre">
+        <div id="about-me">
+            <h1>SOBRE MIM</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eaque soluta unde architecto nostrum voluptas ducimus explicabo molestiae magni sequi, saepe sed, necessitatibus, autem asperiores aliquam ad quas recusandae fuga?</p>
         </div>
-        <div class="cont">
-            <a href="https://linkdin.com">Linkdin</a>
-        </div>
-        <div class="cont">
-            <a href="https://gmail.com">Email</a>
-        </div>
+        <ul id="lista">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
     </section>
 
-    <nav>
+    <section id="atividades">
         <h2>Atividades</h2>
         <ul class="lista">
             <li>
@@ -69,6 +78,19 @@
                 </a>
             </li>
         </ul>
-    </nav>
+    </section>
+
+    <footer>
+        <p>
+            Desenvolvido por 
+            <a href="https://github.com/stenianfelix"
+            target="_blank"
+            >
+                Felix
+            </a>
+        </p>
+    </footer>
+    <button id="btn">Tema</button>
+    <script src="./js/index.js"></script>
 </body>
 </html>
